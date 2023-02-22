@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Poppins:ital,wght@0,300;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&family=Poppins:ital,wght@0,300;1,300&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color:hsl(30, 38%, 92%);
+    font-family: montserrat,fraunces,sans-serif;
+
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    width: 600px;
+    margin: 0 auto;
+    margin-top: 10%;
+ }
+img{
+    height:360px;
+    width: 270px;
+   border-radius: 5px 0px 0px 5px; 
+}
+.text{
+    background-color: hsl(0, 0%, 100%);
+    width: 255px;
+    height: 323px;
+    padding: 20px;
+    border-radius: 0px 5px 5px 0px; 
+}
+.title{
+    font-family: monserrat;
+    font-size: 20px;
+    color:  hsl(220, 2%, 53%);
+    margin-bottom: 5px;
+    letter-spacing: 3px;
+}
+h5{
+    font-size: 14px;
+    color: hsl(220, 2%, 53%);
+}
+h2{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.grid{
+    display: grid;
+    flex-direction: row;
+}
+.price{
+    color: hsl(158, 73%, 32%);
+    font-size: 30px;
+}
+span{
+    font-size: 14px;
+    color: hsl(220, 2%, 53%);
+}
+ a {
+        color: hsl(228, 45%, 44%); 
+    }
+.attri{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+}
+button{
+    background-color: hsl(158, 73%, 32%);
+    height: 50px;
+    width: 90%;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    color: hsl(0, 0%, 100%);
+    border-radius: 10px;
+}
+button::before{
+    content: url(images/icon-cart.svg);
+    margin-right: 5px;
+
+}
+@media screen and (min-width:375px) and (max-width:1440px) {
+    body{
+        background-color: hsl(30, 38%, 92%);
+    }
+}
